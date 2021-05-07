@@ -36,12 +36,12 @@ mongoose
   // .catch(error => {console.log('Error while adding the recipe', error); })
 
   // // Iteration 4
-  // Recipe.findOneAndUpdate({ title: "Asian Glazed Chicken Thighs" }, { duration: 60 }, { new: true })
+  // Recipe.findOneAndUpdate({ title: "Rigatoni alla Genovese" }, { duration: 100 }, { new: true })
   //   .then(recipe => console.log('Recipe duration successfully updated to: ', recipe.duration))
   //   .catch(error => console.log('An error happened while updating a recipe:', error));
 
   // // Iteration 5
-  // Recipe.deleteOne({ title: "Chocolate Chip Cookies" })
+  // Recipe.deleteOne({ title: "Carrot Cake" })
   //     .then(recipe => console.log('Recipe successfully deleted: ', recipe))
   //     .catch(error => console.log('An error happened while deleting a recipe:', error));
 
